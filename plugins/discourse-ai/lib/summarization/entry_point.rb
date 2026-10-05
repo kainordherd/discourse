@@ -4,6 +4,41 @@ module DiscourseAi
   module Summarization
     class EntryPoint
       def inject_into(plugin)
+        plugin.add_to_class(:topic_view, :ai_summary_publication) do
+          @ai_summary_publication ||= DiscourseAi::Summarization::PublishedSummary.new(self)
+        end
+
+        plugin.register_html_builder("server:topic-show-before-posts") do |controller, topic_view:|
+          publication = topic_view.ai_summary_publication
+          next if !publication&.summary
+
+          controller.render_to_string(
+            partial: "discourse_ai/summarization/published_summary",
+            locals: {
+              publication:,
+            },
+          )
+        end
+
+        plugin.register_modifier(:markdown_topic_header) do |header, topic_view|
+          publication = topic_view.ai_summary_publication
+          next header if !publication&.summary
+
+          "#{header}\n\n## #{I18n.t("discourse_ai.summarization.published_summary_heading")}\n\n#{publication.markdown}"
+        end
+
+        plugin.register_modifier(
+          :topic_view_last_modified,
+        ) do |last_modified, topic_view, format, post_number|
+          next last_modified if !%i[html md].include?(format)
+
+          publication = topic_view.ai_summary_publication
+          next last_modified if !publication&.eligible? || (format == :md && post_number.present?)
+
+          summary = publication.summary
+          summary ? [last_modified, summary.updated_at].compact.max : nil
+        end
+
         plugin.add_to_serializer(:current_user, :can_request_gists) { scope.can_request_gists? }
 
         plugin.add_to_serializer(:current_user, :can_summarize) do
