@@ -1615,7 +1615,6 @@ nb_NO:
         upload_title: "Last opp bilde"
         image_is_not_a_square: "Vi har beskåret bildet ditt, høyde og bredde er ikke lik"
         logo_small: "Nettstedets lille logo. Brukes som standard."
-        use_custom: "Eller last opp en egendefinert avatar:"
       change_profile_background:
         title: "bakgrunns bildet"
         instructions: "Profiloverskrifter vil være sentrert og har en standardbredde på 1110 piksler."
@@ -4431,6 +4430,7 @@ nb_NO:
             block: "Blokker"
             presets:
               custom: "Egendefinert"
+            automatic: "Automatisk"
           authorizations:
             user: "Bruker"
             status: "Status"

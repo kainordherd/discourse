@@ -2145,7 +2145,6 @@ he:
         upload_title: "העלאת התמונה שלך"
         image_is_not_a_square: "אזהרה: קיצצנו את התמונה שלך; האורך והרוחב לא היו שווים."
         logo_small: "הלוגו הקטן של האתר. משמש כברירת מחדל."
-        use_custom: "או להעלות תמונה ייצוגית משלך:"
       change_profile_background:
         title: "כותרת פרופיל"
         instructions: "כותרות הפרופילים ימורכזו ורוחבן ייקבע ל־1110 פיקסלים כבררת מחדל."
@@ -6093,6 +6092,7 @@ he:
             use_preset: "הגדרה"
             presets:
               custom: "מותאם"
+            automatic: "אוטומטי"
           authorizations:
             user: "משתמש"
             last_used: "שימוש אחרון"

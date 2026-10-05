@@ -2046,7 +2046,6 @@ tr_TR:
         upload_title: "Resminizi yükleyin"
         image_is_not_a_square: "Uyarı: Genişliği ve yüksekliği eşit olmadığı için görseli kırptık."
         logo_small: "Sitenin küçük logosu. Varsayılan olarak kullanılır."
-        use_custom: "Veya özel bir avatar yükleyin:"
       change_profile_background:
         title: "Profil Başlığı"
         instructions: "Profil başlıkları ortalanır ve varsayılan olarak 1110 px boyutunda olur."
@@ -5953,6 +5952,7 @@ tr_TR:
             use_preset: "Kur"
             presets:
               custom: "Özel"
+            automatic: "Otomatik"
           authorizations:
             user: "Kullanıcı"
             scopes: "Verilen kapsamlar"

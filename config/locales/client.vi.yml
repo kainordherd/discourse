@@ -1840,7 +1840,6 @@ vi:
         upload_title: "Upload hình ảnh của bạn"
         image_is_not_a_square: "Cảnh báo: chúng tôi đã cắt hình ảnh của bạn; chiều rộng và chiều cao không bằng nhau."
         logo_small: "Logo nhỏ của trang web. Được sử dụng theo mặc định."
-        use_custom: "Hoặc tải lên hình đại diện tùy chỉnh:"
       change_profile_background:
         title: "Ảnh bìa"
         instructions: "Căn giữa, chiều rộng mặc định là 1110px."
@@ -5383,6 +5382,7 @@ vi:
             block: "Khóa"
             presets:
               custom: "Tùy biến"
+            automatic: "Tự động"
           authorizations:
             user: "Người dùng"
             last_used: "Lần cuối sử dụng"

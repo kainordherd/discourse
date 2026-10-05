@@ -1854,7 +1854,6 @@ pt:
         upload_title: "Carregar a sua foto"
         image_is_not_a_square: "Alerta: cortámos a sua imagem; o comprimento e a altura não eram iguais."
         logo_small: "Logotipo pequeno do site. Usado por padrão."
-        use_custom: "Ou carregue um avatar personalizado:"
       change_profile_background:
         title: "Cabeçalho do Perfil"
         instructions: "Os cabeçalhos do perfil serão centrados e com uma largura padrão de 1110px."
@@ -4686,6 +4685,7 @@ pt:
             block: "Bloquear"
             presets:
               custom: "Personalizar"
+            automatic: "Automático"
           authorizations:
             user: "Utilizador"
             status: "Estado"

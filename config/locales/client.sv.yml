@@ -1525,7 +1525,6 @@ sv:
         upload_title: "Ladda upp din bild"
         image_is_not_a_square: "Varning: vi beskar din bild; bredden och höjden var inte lika stora."
         logo_small: "Webbplatsens lilla logotyp. Används som standard."
-        use_custom: "Eller ladda upp en anpassad avatar:"
       change_profile_background:
         title: "Profilrubrik"
         instructions: "Profilrubriken kommer att centreras, samt ha en standardbredd på 1110px."
@@ -4502,6 +4501,7 @@ sv:
             block: "Blockera"
             presets:
               custom: "Anpassad"
+            automatic: "Automatisk"
           authorizations:
             user: "Användare"
             status: "Status"

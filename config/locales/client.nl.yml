@@ -2033,7 +2033,6 @@ nl:
         upload_title: "Upooad je afbeelding"
         image_is_not_a_square: "Waarschuwing: we hebben je afbeelding bijgesneden; de breedte en hoogte waren niet gelijk."
         logo_small: "Het kleine logo van de website. Standaard gebruikt."
-        use_custom: "Of upload een eigen avatar:"
       change_profile_background:
         title: "Profielkoptekst"
         instructions: "Profielkopteksten worden gecentreerd en hebben een standaardbreedte van 1110 pixels."
@@ -5927,6 +5926,7 @@ nl:
             use_preset: "Instellen"
             presets:
               custom: "Aangepast"
+            automatic: "Automatisch"
           authorizations:
             user: "Gebruiker"
             scopes: "Toegekende bereiken"

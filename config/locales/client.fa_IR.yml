@@ -1721,7 +1721,6 @@ fa_IR:
         upload_title: "تصویرتان را بارگذاری کنید"
         image_is_not_a_square: "اخطار: ما تصویر شما را بریدیم; طول و عرض برابر نبود."
         logo_small: "لوگو کوچک سایت. به طور پیش‌فرض استفاده می‌شود."
-        use_custom: "یا یک آواتار سفارشی بارگذاری کنید:"
       change_profile_background:
         title: "سربرگ نمایه"
         instructions: "سرصفحه های نمایه در مرکز قرار می گیرند و دارای عرض پیش فرض ۱۱۱۰ پیکسل هستند."
@@ -4972,6 +4971,7 @@ fa_IR:
             block: "بستن"
             presets:
               custom: "سفارشی"
+            automatic: "خودکار"
           authorizations:
             user: "کاربر"
             last_used: "آخرین استفاده"

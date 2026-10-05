@@ -2519,7 +2519,6 @@ ar:
         upload_title: "تحميل صورتك"
         image_is_not_a_square: "تحذير: لقد قصصنا صورتك؛ لأن عرضها وارتفاعها لم يكونا متساويين."
         logo_small: "شعار الموقع الصغير. يتم استخدامه بشكلٍ افتراضي."
-        use_custom: "أو حمِّل صورة رمزية مخصَّصة:"
       change_profile_background:
         title: "رأس الملف الشخصي"
         instructions: "سيتم توسيط رؤوس الملفات الشخصية وسيكون عرضها الافتراضي 1110 بكسل."
@@ -7532,6 +7531,7 @@ ar:
             use_preset: "إعداد"
             presets:
               custom: "مخصَّصة"
+            automatic: "تلقائية"
           authorizations:
             user: "المستخدم"
             scopes: "المجالات الممنوحة"

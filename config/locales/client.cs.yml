@@ -2148,7 +2148,6 @@ cs:
         upload_title: "Nahrát obrázek"
         image_is_not_a_square: "Varování: Ořízli jsme váš obrázek; šířka a délka nebyla stejná."
         logo_small: "Malé logo webu. Používá se ve výchozím nastavení."
-        use_custom: "Nebo nahrajte vlastní avatar:"
       change_profile_background:
         title: "Záhlaví profilu"
         instructions: "Záhlaví profilu bude vycentrována a má výchozí šířku 1110px."
@@ -6169,6 +6168,7 @@ cs:
             block: "Zablokovat"
             presets:
               custom: "Přizpůsobené"
+            automatic: "Automatické"
           authorizations:
             user: "Uživatel"
             last_used: "Poslední použití"

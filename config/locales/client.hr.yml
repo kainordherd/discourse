@@ -1960,7 +1960,6 @@ hr:
         upload_title: "Učitajte sliku"
         image_is_not_a_square: "Upozorenje: obrezali smo vašu sliku; širina i visina nisu bile jednake."
         logo_small: "Mali logotip web stranice. Koristi se prema zadanim postavkama."
-        use_custom: "Ili prenesite prilagođeni avatar:"
       change_profile_background:
         title: "Zaglavlje profila"
         instructions: "Zaglavlja profila bit će centrirana i imaju zadanu širinu od 1110px."
@@ -5563,6 +5562,7 @@ hr:
             block: "Blokiraj"
             presets:
               custom: "Posebna"
+            automatic: "Automatska"
           authorizations:
             user: "Korisnik"
             last_used: "Zadnje korišteno"

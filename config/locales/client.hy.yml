@@ -1613,7 +1613,6 @@ hy:
         uploaded_avatar_empty: "Ավելացնել անհատական նկար"
         upload_title: "Վերբեռնեք Ձեր նկարը"
         image_is_not_a_square: "Ուշադրություն. մենք կտրել ենք Ձեր նկարը; լայնությունն ու երկարությունը հավասար չէին:"
-        use_custom: "Կամ վերբեռնեք անհատական ավատար՝"
       change_profile_background:
         title: "Պրոֆիլի Վերնագիրը"
         instructions: "Պրոֆիլի վերնագիրը կկենտրոնանա և կունենա 1110 պքս լռելյայն լայնություն:"
@@ -3929,6 +3928,7 @@ hy:
             block: "Արգելափակել"
             presets:
               custom: "Մասնավոր"
+            automatic: "Ավտոմատ"
           authorizations:
             user: "Օգտատեր"
             status: "Ստատուս"

@@ -1845,7 +1845,6 @@ ja:
         upload_title: "写真をアップロードする"
         image_is_not_a_square: "警告: 幅と高さが等しくないため、画像をトリミングしました。"
         logo_small: "サイトの小さなロゴ。デフォルトで使用されます。"
-        use_custom: "またはカスタムアバターをアップロード:"
       change_profile_background:
         title: "プロファイルヘッダー"
         instructions: "プロファイルヘッダーは中央揃えで、デフォルトの幅は 1110 px です。"
@@ -5341,6 +5340,7 @@ ja:
             use_preset: "セットアップ"
             presets:
               custom: "カスタム"
+            automatic: "自動作成"
           authorizations:
             user: "ユーザー"
             last_used: "最後の使用"

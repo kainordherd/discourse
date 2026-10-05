@@ -1952,7 +1952,6 @@ sk:
         upload_title: "Nahrať váš obrázok"
         image_is_not_a_square: "Upozornenie: váš obrázok sme orezali; mal rozdielnu šírku a výšku"
         logo_small: "Malé logo stránky. Používa sa v predvolenom nastavení."
-        use_custom: "Alebo nahrajte vlastný avatar:"
       change_profile_background:
         title: "Hlavička profilu"
         instructions: "Hlavičky profilov budú vycentrované a budú mať predvolenú šírku 1110 pixelov."
@@ -5715,6 +5714,7 @@ sk:
             use_preset: "Nastavenie"
             presets:
               custom: "Vlastné"
+            automatic: "Automaticky"
           authorizations:
             user: "Používateľ"
             last_used: "Naposledy použité"

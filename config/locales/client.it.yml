@@ -1856,7 +1856,6 @@ it:
         upload_title: "Carica la tua foto"
         image_is_not_a_square: "Attenzione: abbiamo ritagliato l'immagine; la larghezza e l'altezza non erano uguali."
         logo_small: "Logo piccolo del sito. Usato come impostazione predefinita."
-        use_custom: "Oppure carica un avatar personalizzato:"
       change_profile_background:
         title: "Intestazione Profilo "
         instructions: "Le intestazioni dei profili saranno centrate e avranno una larghezza predefinita di 1110 px."
@@ -5308,6 +5307,7 @@ it:
             use_preset: "Configura"
             presets:
               custom: "Personalizzato"
+            automatic: "Automatico"
           authorizations:
             user: "Utente"
             last_used: "Ultimo utilizzo"

@@ -1449,7 +1449,6 @@ ko:
         upload_title: "사진 업로드"
         image_is_not_a_square: "경고: 정사각형 이미지가 아니기 때문에 사진을 수정하였습니다."
         logo_small: "사이트의 작은 로고. 기본적으로 사용됩니다."
-        use_custom: "또는 아바타 업로드:"
       change_profile_background:
         title: "프로필 헤더"
         instructions: "프로필 헤더는 중앙에 위치하며 기본 너비는 1110px입니다."
@@ -3929,6 +3928,7 @@ ko:
             block: "차단"
             presets:
               custom: "사용자 정의"
+            automatic: "자동화"
           authorizations:
             user: "사용자"
             status: "상태"

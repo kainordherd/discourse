@@ -1635,7 +1635,6 @@ sq:
         upload_title: "Ngarkoni foton tuaj"
         image_is_not_a_square: "Vini re: fotoja juaj është përshtatur, pasi nuk ishte katrore."
         logo_small: "Logoja e vogël e faqes. Përdoret si parazgjedhje."
-        use_custom: "Ose ngarkoni një avatar të personalizuar:"
       change_profile_background:
         title: "Titulli i profilit"
         instructions: "Titujt e profilit do të jenë të përqendruara dhe do të kenë një gjerësi të parazgjedhur prej 1110px."
@@ -4090,6 +4089,7 @@ sq:
             block: "Blloko"
             presets:
               custom: "Grupet e krijuara"
+            automatic: "Automatik"
           authorizations:
             user: "User"
             status: "Status"
